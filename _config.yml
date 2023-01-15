@@ -1,0 +1,13 @@
+title: Personal Site
+email: user@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  নিভে যাওয়া আলোর পূজারী
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: AhmedMRaihan
+github_username:  AhmedMRaihan
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed

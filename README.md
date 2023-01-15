@@ -12,5 +12,7 @@ First, prepare base image by running this command:
 
 Then, start a container using the following command:
 ```bash
-docker run --rm -p 4000:4000 -v "$PWD:/code" -w /code -it jekyll:dev ./entrypoint.sh
+docker run --rm -p 8080:4000 -v "$PWD:/code" -w /code -it jekyll:dev ./entrypoint.sh
 ```
+
+Go to http://localhost:8080 to check the website
