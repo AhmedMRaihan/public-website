@@ -16,3 +16,7 @@ docker run --rm -p 8080:4000 -v "$PWD:/code" -w /code -it jekyll:dev ./entrypoin
 ```
 
 Go to http://localhost:8080 to check the website
+
+# Deployment
+
+Using Github Actions only from `main` branch. In the `main` branch, `Gemfile` and `_config.yml` differ from **development** branch to ensure local development as well as github pages both can be served.
