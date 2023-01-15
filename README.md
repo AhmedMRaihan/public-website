@@ -19,4 +19,4 @@ Go to http://localhost:8080 to check the website
 
 # Deployment
 
-Using Github Actions only from `main` branch. In the `main` branch, `Gemfile` and `_config.yml` differ from **development** branch to ensure local development as well as github pages both can be served.
+Using Github Actions only from `main` branch. In the `main` branch, `Gemfile` differs from **development** branch to ensure local development as well as github pages both can be served.
