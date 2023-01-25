@@ -12,7 +12,7 @@ The convention is simplified now for the sake of easy communication. Now, Virtua
  2. **Instance-type**: This should give quick insight on what we are going to expect in next blocks of the name. It should be 1 character for zero trust Devices like Laptop/Mobile/Workstation, 2 character for other types (e.g. LB for load balancer, VM for virtual machine).
  3. **Project-code**: For zero trust devices, it is textual value. For client projects it might be a numeric code. For internal projects it is project’s short name.
  4. (Optional): subproject name or git commit id, each separated by `~`. This is useful in auto-generating name(s).
- 5. **N**: Instance creation timestamp in epoch or any valid timeformat (e.g. [RFC 822](https://stackoverflow.com/a/16744916)). For backward compatibility, an auto-incremented number across each Project-code can be used also.
+ 5. **N**: Instance creation timestamp in epoch or any valid timeformat (e.g. [RFC 822](https://stackoverflow.com/a/16744916)). For backward compatibility, an auto-incremented number across each *Project-code or Instance-type* can be used also.
  6. **Environment-type**: 1 character where it could be any of the following:
 * Z for multi-purpose usage
 * L for internaL/Locally single purpose usage
