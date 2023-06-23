@@ -13,10 +13,10 @@ The convention is simplified now for the sake of easy communication. Now, Virtua
  3. **Project-code**: For zero trust devices, it is textual value. For client projects it might be a numeric code. For internal projects it is project’s short name.
  4. (Optional): subproject name or git commit id, each separated by `~`. This is useful in auto-generating name(s).
  5. **N**: Instance creation timestamp in epoch or any valid timeformat (e.g. [RFC 822](https://stackoverflow.com/a/16744916)). For backward compatibility, an auto-incremented number across each *Project-code or Instance-type* can be used also.
- 6. **Environment-type**: 1 character where it could be any of the following:
-* Z for multi-purpose usage
-* L for internaL/Locally single purpose usage
-* S for Sandbox preparation (e.g. Proof Of Concept)
+ 6. **Environment-type**: 1 character (excluding 1/l/i - i.e. similar looking letters) where it could be any of the following:
+* Z for zero trust sources (e.g. personal devices)
+* B for bridging sources like Bastion hosts
+* S for Sandbox preparation (e.g. Proof Of Concept, DMZ)
 * D for Development instance
 * U for User-acceptance testing instance
 * P for 24x7 running prod (e.g. VM)
