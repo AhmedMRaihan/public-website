@@ -1,8 +1,3 @@
----
-layout: post
-title:  "Privacy Policy"
-categories: jekyll update
----
 
 # Who we are
 
